@@ -12,3 +12,16 @@ const fetchBooks = function() {
 export default {
     fetchBooks
 }
+
+// {
+//     "kind": "books#bookshelf",
+//     "id": integer,
+//     "selfLink": string,
+//     "title": string,
+//     "description": string,
+//     "access": string,
+//     "updated": datetime,
+//     "created": datetime,
+//     "volumeCount": integer,
+//     "volumesLastUpdated": datetime
+//   }
