@@ -1,16 +1,17 @@
 import React from 'react';
 
-const Search = () => {
+class Search extends Component {
 
-    
+    //handlechange
+    //handlesubmit
 
-    return ( 
-        <div>
+    return( 
+        <form>
             <label htmlFor="search-input"></label>
             <input className="search-input" type="text" name="search-input" id="search-input"></input>
             <button className="search-btn">Search</button>
-        </div>
-     );
+        </form>
+     )
 }
- 
+
 export default Search;
